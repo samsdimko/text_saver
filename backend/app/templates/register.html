@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <style>
+    body {
+      width: 300px;
+      height: 200px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Register</h2>
+  <form action="{{ url_for('register') }}" method="POST">
+    <!-- Form fields -->
+  </form>
+  <a href="{{ url_for('google_login') }}">Sign in with Google</a>
+</body>
+</html>
