@@ -20,7 +20,7 @@ The Text Saver Browser Extension is designed to enhance your browsing experience
 
 ## Installation
 
-To install extension as developer, do the following steps:
+To install extension as developer, download "frontend" directory and do the following steps:
 
 1. Open Google Chrome or the Chromium-based browser you are using.
 
