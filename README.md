@@ -2,7 +2,7 @@
 
 ## Description
 
-The Text Saver Browser Extension is designed to enhance your browsing experience by offering powerful features to save and organize text-based content from web pages. Whether it's a memorable quote, a useful piece of information, or an inspiring passage, our extension enables you to capture and store these texts effortlessly for future reference.
+The Text Saver Browser Extension is designed to enhance your browsing experience by offering powerful features of saving and organizing text-based content from web pages. Whether it's a memorable quote, a useful piece of information, or an inspiring passage, our extension enables you to capture and store these texts effortlessly for future reference.
 
 ## Features
 
