@@ -50,9 +50,9 @@ To install extension as developer, download "frontend" directory and do the foll
 
 ## Screenshots
 
-![Screenshot 1](screenshots/mainpage_screenshot.png)
+![Screenshot 1](screenshots/mainpage_screenshot.png) ![Screenshot 3](screenshots/texts_screenshot.png)
+
 ![Screenshot 2](screenshots/saving_screenshot.png)
-![Screenshot 3](screenshots/texts_screenshot.png)
 
 ## Compatibility
 
