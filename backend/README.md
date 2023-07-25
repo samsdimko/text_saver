@@ -27,6 +27,12 @@ These endpoints handle the authorization of the user.
 * Request Body: JSON object with login, email, and password.
 * Response: JSON object with a success message and the JWT token for the new user.
 
+#### Check Authorization
+* Endpoint: /check-authorization
+* Method: GET
+* Description: Checks if the user is authorized and has a valid JWT.
+* Response: JSON object with a success message indicating authorized access.
+
 ### Texts
 These endpoints handle the saving, retrieval, and deletion of text data for the authenticated user.
 
@@ -107,12 +113,6 @@ These endpoints handle the management of user tags for organizing saved texts.
 * Description: Retrieves the privacy policy of the Text Saver extension.
 
 ### Miscellaneous
-#### Check Authorization
-* Endpoint: /check-authorization
-* Method: GET
-* Description: Checks if the user is authorized and has a valid JWT.
-* Response: JSON object with a success message indicating authorized access.
-
 #### Index
 Endpoint: /
 Method: GET
