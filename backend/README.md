@@ -118,4 +118,7 @@ Endpoint: /
 Method: GET
 Description: A welcome message indicating successful access to the Text Saver API.
 
-This document serves as a reference guide for the Text Saver backend API. It outlines the available endpoints, their descriptions, and the expected request and response formats. Please refer to this documentation when interacting with the Text Saver backend. If you have any questions or encounter any issues, feel free to reach out to the project maintainers. 
+## Support
+This document serves as a reference guide for the Text Saver backend API. It outlines the available endpoints, their descriptions, and the expected request and response formats. Please refer to this documentation when interacting with the Text Saver backend. For any questions, feedback, or support inquiries, reach out to us at admin@samsdimkoprojects.pro.
+
+Start saving and organizing your favorite texts with the Text Saver Browser Extension today!
