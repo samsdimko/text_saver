@@ -1,0 +1,351 @@
+body {
+      width: 300px;
+      height: 200px;
+      padding: 20px;
+      padding-top: 5px;
+      background-color:rgba(192, 192, 192, 0.5);
+      border-radius: 20px;
+      text-align: center;
+}
+
+
+button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-style: "Sans-serif"
+}
+
+button:hover {
+  background-color: #0000a0; /* Darker shade of blue */
+
+  cursor: pointer;
+}
+
+.scrollable {
+  overflow: auto;
+  max-height: 120px; /* Adjust the maximum height as needed */
+}
+
+.popup-dictionaries {
+  height: 25px;
+  padding: 1px;
+}
+
+#saveTextButton {
+  height: 40px;
+}
+
+#showTextsButton {
+  height: 25px;
+  padding: 1px;
+}
+
+#logoutButton {
+  background-color: grey;
+  height: 20px;
+  padding: 1px;
+}
+
+#logoutButton:hover {
+  background-color: darkgray;
+}
+
+.listButton {
+  width: auto;
+  margin-right: 10px;
+}
+
+.addTagButton {
+  width: auto; /* Remove the width constraint */
+  margin: 0; /* Remove the margins */
+  padding: 0; /* Remove the padding */
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.addTagImage {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
+.addTagHint {
+  margin-left: 5px; /* Add some spacing between the image and the hint text */
+}
+
+.tagHintContainer {
+  position: fixed;
+  background-color: #f2f2f2;
+  color: #333; /* Adjust the text color as needed */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 9999;
+}
+
+.button.deleteButton {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url('/pics/delete.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  border-radius: 50%;
+}
+
+.deleteButton {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.deleteButton img {
+  width: 20px;
+  height: 20px;
+}
+
+.deleteButton:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.confirmation-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: white;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.confirmation-modal-text {
+  color: #656565;
+}
+
+.confirmation-modal-text-main {
+  color: black;
+}
+
+.confirmation-modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.confirmation-modal-buttons button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.confirmation-modal-buttons button.cancel {
+  background-color: #aaa;
+}
+
+h1 {
+      margin-bottom: 20px;
+} 
+
+#textListContainer {
+  height: 120px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.textItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.textOrder {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.textContent {
+  flex-grow: 1;
+  margin-right: 10px;
+  text-align: left;
+  width: 70%;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.constructor-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container button {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#tagListContainer {
+  height: 120px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.tagItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tagItem:hover {
+  cursor: pointer;
+}
+
+.tagOrder {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.tagName {
+  flex-grow: 1;
+  margin-right: 10px;
+  text-align: left;
+}
+
+
+.defaultTagItem {
+  color: rgba(0, 0, 0, 0.7);
+  flex-grow: 1;
+  text-align: center;
+ }
+
+
+.addDefaultTagButton {
+  width: 20%;
+  background-color: rgba(0, 128, 0, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-right: 10px;
+}
+
+.addDefaultTagButton:hover {
+  background-color: white;
+  color: green;
+}
+
+.add-tag-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal-backdrop.active {
+  opacity: 1;
+}
+
+.tag-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tag-dropdown-container input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.tag-dropdown-list {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin-top: 2px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.tag-dropdown-list li {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.tag-dropdown-list li:hover {
+  background-color: #f4f4f4;
+}
