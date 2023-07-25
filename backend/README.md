@@ -30,4 +30,5 @@ The backend of the Text Saver extension is a Flask API that provides endpoints f
 * Description: Handles user registration and creates a new user account.
 * Request Body: JSON object with the login, email, and password properties.
 * Response: JSON response indicating the success of the registration and containing the JWT token.
+
 (Note: You can include other endpoints as well if there are additional functionalities in your backend API.)
