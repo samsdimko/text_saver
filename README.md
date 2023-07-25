@@ -22,7 +22,7 @@ The Text Saver Browser Extension is designed to enhance your browsing experience
 
 To install extension as developer, do the following steps:
 
-1.Open Google Chrome or the Chromium-based browser you are using.
+1. Open Google Chrome or the Chromium-based browser you are using.
 
 2. Open the Extensions page:
 * For Chrome: Type chrome://extensions in the address bar and press Enter.
