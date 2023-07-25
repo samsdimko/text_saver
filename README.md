@@ -40,13 +40,19 @@ To install extension as developer, download "frontend" directory and do the foll
 * If there are no errors in the extension, it should be active and ready to use. You might also see the extension icon in the browser's toolbar.
 * For using text saving from context menu you may need to reload your browser after instalation.
 
-## How to use:
+## How to use
 
 1. Install the Text Saver Browser Extension from the Chrome Web Store.
 2. When you come across a piece of text you want to save, simply select it.
 3. Right-click and choose "Save Text" from the context menu to store the selected text or use "Save text" button im popup.
 4. Assign relevant tags to organize your saved texts effectively.
 5. Retrieve your saved texts quickly using the search feature or by filtering with tags.
+
+## Screenshots
+
+![Screenshot 1](screenshots/mainpage_screenshot.png)
+![Screenshot 2](screenshots/saving_screenshot.png)
+![Screenshot 3](screenshots/texts_screenshot.png)
 
 ## Compatibility
 
