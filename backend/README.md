@@ -5,8 +5,10 @@ This document describes the API endpoints for the Text Saver backend. The backen
 The Text Saver API uses JSON Web Tokens (JWT) for authentication. To access protected endpoints, clients must include a valid JWT in the Authorization header of the HTTP request. The JWT is obtained through the login process, and it must be included in subsequent requests for authorized access.
 
 ## Endpoints
+### Authorization
+These endpoints handle the authorization of the user.
 
-### Login
+#### Login
 * Endpoint: /login
 * Method: POST
 * Description: Authenticates a user and returns a JWT token for authorized access.
