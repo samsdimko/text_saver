@@ -8,7 +8,6 @@ from app.db_utils import get_user, get_user_id, get_user_password_hash, add_word
 from werkzeug.security import check_password_hash, generate_password_hash
 from functools import wraps
 from urllib.parse import parse_qs, urlparse
-from .policy import PRIVACY_POLICY
 
 
 def token_required(f):
