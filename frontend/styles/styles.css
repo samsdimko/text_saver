@@ -349,3 +349,12 @@ h1 {
 .tag-dropdown-list li:hover {
   background-color: #f4f4f4;
 }
+
+#privacyPolicyLink {
+      font-size: 8px;
+      color: gray;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-top: 5px;
+      margin-buttom: 5px;
+    }
