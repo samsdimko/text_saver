@@ -1,6 +1,5 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     if (request.method == "getToken")
-      console.log(123);
       chrome.storage.local.get(['token'], function(result) {
         const token = result.token;
         console.log('Token from storage:', token);
